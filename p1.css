@@ -1,0 +1,51 @@
+
+        *{
+            margin:0;
+            padding:0;
+        }
+      body{
+          background-color:yellowgreen;
+
+      }
+      p{
+          color:white;
+          
+      }
+        ul{
+           
+            display:flex;
+            justify-content:flex-end;
+            
+            list-style-type:none;
+            background-color:black;
+        
+            padding:5px;
+        }
+       a{
+
+           font-family:"Consolas";
+        color:white;
+        /* float:right; */
+            /* border:1px solid; */
+            text-decoration: none;
+           margin:5px;
+            padding:3px; 
+        }
+  a:hover{
+      background-color:red;
+      /* text-decoration: underline; */
+  }
+.active{
+    background-color: yellowgreen;
+    text-decoration:underline ;
+    text-decoration-color: red;
+    border-radius: 45px 10px;
+}
+.footer{
+    display:flex;
+    /* justify-content: center; */
+}
+.fa{
+    color:white;
+    margin:5px;
+}
